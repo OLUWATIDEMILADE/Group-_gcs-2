@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "directory"
+read PATH
+if [ $PATH="directory" ]
+then
+	echo "lists of all files"
+else
+	echo "file Path of a directory"
+fi
